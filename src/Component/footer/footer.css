@@ -1,0 +1,9 @@
+@media (min-width:320px) and (max-width:480px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        background-color: var(--gray-color);
+    }
+   
+}

@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+    font-size: 62.5% ; 
+  }
+:root{
+  --brown-color:#BF9874;
+  --border-color:#001025;
+  --white-color:#FFFFFF;
+  --gray-color:#EAF1FA;
+  --footer-color:#667C99;
+}

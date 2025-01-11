@@ -1,0 +1,15 @@
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    
+.fivediv-acc{
+    width: 100% !important;
+}
+.heading h1{
+    font-size: 4rem !important;
+    line-height: 4.5rem  !important;
+    
+
+}
+}

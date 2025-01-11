@@ -1,0 +1,11 @@
+.foursectiontwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 6.5rem 0rem;
+    background-color: var(--gray-color);
+} @media (min-width:320px) and (max-width:480px) {
+    .foursectiontwo{
+        flex-direction: column;
+        align-items: center;
+    }
+}

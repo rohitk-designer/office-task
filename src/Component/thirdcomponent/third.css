@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
 }
-@media (min-width:320px) and (max-width:480px){
+@media (min-width:320px) and (max-width:575px){
     .third-div{
         flex-direction: column;
         height: auto;
@@ -18,5 +18,35 @@
     }
     .same{
         flex-direction: column;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .third-div{
+        
+        height: auto;
+        padding:2rem;
+    }
+    .same{
+        flex-direction: column;
+        
+    }
+    .same h4{
+        font-size: 2rem !important;
+    }
+    .same p{
+        font-size: 1.2rem !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .third-div{
+        
+        height: auto;
+        padding:2rem;
+    }
+    .same{
+        flex-direction: column;
+        
     }
 }

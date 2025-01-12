@@ -10,7 +10,7 @@ const FiveSection = () => {
             <p style={{color:"var(--brown-color)",font:"2rem"}}>OUR PAST & OUR FUTURE</p>
         </div>
         <div >
-        <Accoudian/>
+        <Accoudian />
         </div>
         </div>
        

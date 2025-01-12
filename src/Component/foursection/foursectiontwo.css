@@ -3,9 +3,29 @@
     justify-content: space-around;
     padding: 6.5rem 0rem;
     background-color: var(--gray-color);
-} @media (min-width:320px) and (max-width:480px) {
+} @media(min-width:320px) and (max-width:575px) {
     .foursectiontwo{
         flex-direction: column;
         align-items: center;
+        padding: 2rem;
     }
+    .foursectiontwo h2{
+        font-size: 1.5rem !important;
+    }
+    .foursectiontwo p{
+        font-size: 1rem !important;
+        margin: 2rem 0rem;
+        
+       
+    }
+
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .foursectiontwo{
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+
 }

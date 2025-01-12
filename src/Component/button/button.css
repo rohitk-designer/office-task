@@ -1,0 +1,29 @@
+@media (min-width:320px) and (max-width:575px){
+   .btnclass{
+       padding: 0.5rem 1.5rem !important;
+       font-size: 1rem !important;
+       margin-bottom: 1rem;
+   }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .btnclass{
+        padding: 1rem 1.5rem !important;
+        font-size: 1.5rem !important;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .btnclass{
+        padding: 1rem 1.5rem !important;
+        font-size: 1.5rem !important;
+        margin-bottom: 3rem;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+    .btnclass{
+        padding: 1rem 1.5rem !important;
+        font-size: 2rem !important;
+        margin-bottom: 3rem;
+    }
+}

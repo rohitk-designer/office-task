@@ -1,11 +1,12 @@
 import Accordion from 'react-bootstrap/Accordion';
+import "./accoudian.css"
 
 function Accoudian() {
   return (
     <div >
     <Accordion defaultActiveKey={['0']} alwaysOpen >
       <Accordion.Item eventKey="0" style={{border: 'none'}}>
-        <Accordion.Header  style={{ textAlign: 'center', justifyContent: 'center', display: 'flex',borderBottom: "2px solid var(--brown-color)",  borderTop: "2px solid var(--brown-color)",fontSize: '2.8rem'}}  > Accordion Item #1</Accordion.Header>
+        <Accordion.Header  className='accordion-header' style={{ textAlign: 'center', justifyContent: 'center', display: 'flex',borderBottom: "2px solid var(--brown-color)",  borderTop: "2px solid var(--brown-color)",fontSize: '2.8rem'}}  > How can we help you?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -17,7 +18,7 @@ function Accoudian() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1" style={{border: 'none'}}>
-        <Accordion.Header   style={{ textAlign: 'center', justifyContent: 'center', display: 'flex',borderBottom: "2px solid var(--brown-color)",fontSize: '2.8rem' }}>Accordion Item #2</Accordion.Header>
+        <Accordion.Header   style={{ textAlign: 'center', justifyContent: 'center', display: 'flex',borderBottom: "2px solid var(--brown-color)",fontSize: '2.8rem' }}>Legal and law advice.</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -29,7 +30,7 @@ function Accoudian() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" style={{border: 'none'}}>
-        <Accordion.Header    style={{ textAlign: 'center', justifyContent: 'center', display: 'flex',borderBottom: "2px solid var(--brown-color)",fontSize: '2.8rem' }}>Accordion Item #3</Accordion.Header>
+        <Accordion.Header    style={{ textAlign: 'center', justifyContent: 'center', display: 'flex',borderBottom: "2px solid var(--brown-color)",fontSize: '2.8rem' }}> Get comepensation for your injuries</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -41,7 +42,7 @@ function Accoudian() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3"  style={{border: 'none'}}>
-        <Accordion.Header    style={{width: '100%', textAlign: 'center', justifyContent: 'center', display: 'flex',alignItems: 'center',borderBottom: "2px solid var(--brown-color)",fontSize: '2.8rem'}}>Accordion Item #4</Accordion.Header>
+        <Accordion.Header    style={{width: '100%', textAlign: 'center', justifyContent: 'center', display: 'flex',alignItems: 'center',borderBottom: "2px solid var(--brown-color)",fontSize: '10rem'}}>Our mission is your success</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

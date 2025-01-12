@@ -1,10 +1,10 @@
 
-
+import "./button.css"
 const Button = ({style}) => {
     
   return (
     <div >
-         <button
+         <button className="btnclass"
               style={{
                 padding: "1.6rem 2.5rem 1.6rem 3.2rem",
                 

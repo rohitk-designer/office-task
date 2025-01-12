@@ -28,7 +28,7 @@ const Header = () => {
                         <span className="phone-one" style={{fontSize:"16px" , marginLeft:"0.4rem",lineHeight:"1.7rem"}}>MONDAY-FRIDAY 7:30AM-6:30PM</span>
                     </div>
                 </div>
-                <div  className="inigfb"  style={{display:"flex", gap:"2rem", fontSize:"16px" , color: "var(--brown-color)", lineHeight:"1.7rem"}}>
+                <div  className="inigfb"  id="blockid"  style={{display:"flex", gap:"2rem", fontSize:"16px" , color: "var(--brown-color)", lineHeight:"1.7rem"}}>
                     <span>IN.</span>
                     <span>IG.</span>
                     <span>FB.</span>
@@ -56,7 +56,7 @@ const Header = () => {
                    
                 </div>
                 <div className="header-upar-twopart">
-                    <div className="class" style={{lineHeight:"1.7rem",padding:"1.6rem 2.5rem 1.6rem 3rem", border:"1px solid var(--border-color)", color:"var(--border-color)"}} >
+                    <div className="class" style={{padding:"1.6rem 2.5rem 1.6rem 3rem", border:"1px solid var(--border-color)", color:"var(--border-color)"}} >
                         <h3 style={{fontWeight:"500",fontSize:"1.6rem"}}>FREE CONSULTION</h3>
                     </div>
                 </div>

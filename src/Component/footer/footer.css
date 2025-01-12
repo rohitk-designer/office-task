@@ -1,9 +1,12 @@
-@media (min-width:320px) and (max-width:480px){
+@media (min-width:320px) and (max-width:575px){
     .footer{
         flex-direction: column;
         text-align: center;
         height: auto;
+        padding:1rem 0rem !important;
         background-color: var(--gray-color);
     }
-   
+   .footer p{
+    font-size:1rem !important;
+   }
 }

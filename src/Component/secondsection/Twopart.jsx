@@ -1,13 +1,13 @@
 import leftarrow from "../../assets/images/arrowleft.svg";
 import square from "../../assets/images/whitesquare.svg";
 import "./second.css";
-import Button from "../Button";
+import Button from "../button/Button";
 const Twopart = () => {
   return (
-    <div className="main-second-part">
+   
       <div
         className="second-part"
-        style={{ padding: "20rem 0rem 66.2rem  22.4rem" , position: "relative" }} >
+        style={{ padding: "10rem 0rem 10.2rem  15.4rem" , position: "relative" }} >
         <div>
           <div>
             <h4
@@ -39,6 +39,7 @@ const Twopart = () => {
                 lineHeight: "2.7rem",
                 weight: "400",
                 color: "var(--white-color)",
+                fontSize:"1.6rem"
               }}>
               <p>
                 Diam leo vitae tortor mauris faccibus odio nullam enim.At dolar
@@ -48,12 +49,11 @@ const Twopart = () => {
                 vehicula tortor massa
               </p>
             </div>
-            <div
+            <div className="sign"
               style={{
                 fontFamily: "Italianno",
                 fontWeight: "400",
-                fontStyle: "normal",
-                fontSize: "13rem",
+                fontSize:"9rem !important",
                 color: "var(--white-color)",
                 opacity: "0.2",
                 position: "absolute",
@@ -63,13 +63,13 @@ const Twopart = () => {
             </div>
           </div>
 
-          <div style={{ marginTop: "10rem" }} className="button">
+          <div style={{ marginTop: "8rem" }} className="button">
            
             <Button style={{ backgroundColor: "var(--brown-color)" }}/>
           </div>
           <div
-            style={{ display: "flex", bottom: "8rem" }} className="imgicon">
-            <div style={{position:"absolute",bottom:"8rem"}} className="imgicon-2">
+            style={{ display: "flex", bottom: "5rem" }} className="imgicon">
+            <div style={{position:"absolute",bottom:"5rem"}} className="imgicon-2">
               <img
                 src={leftarrow} alt="leftarrow"
                 style={{ width: "4.4rem", marginRight: "2rem" }}
@@ -83,7 +83,7 @@ const Twopart = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
